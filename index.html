@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="main">
+        <div class="nav">
+            <h2><center><a href="#convert"><span class="text-primary">I</span>Converter</a></center></h2>
+          </div>
+        <div class="side">
+            <input type="number" name="num" id="num1" placeholder="enter amount">
+            <button class="convert">convert</button>
+        </div>
+
+        <table class="tab" >
+            <thead>
+                <tr><th class="new" colspan="3" style="color: black;">currency distribution</th></tr>
+                <tr>    
+                    <th>S/N</th>
+                    <th>Values</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            
+            <tbody id="build"></tbody>
+            <tfoot id="table-footer"></tfoot>
+           
+        </table>
+        
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
